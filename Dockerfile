@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV HOST=localhost PORT=5432
+ENV HOST=localhost PORT=54321
 
 ENV USER=root PASSWORD=root DBNAME=root
 
