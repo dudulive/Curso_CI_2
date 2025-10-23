@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 
-ENV HOST=localhost DBPORT=5432
+ENV DBHOST=localhost DBPORT=5432
 
-ENV USER=root PASSWORD=root DBNAME=root
+ENV DBUSER=root DBPASSWORD=root DBNAME=root
 
 EXPOSE 8000
 
