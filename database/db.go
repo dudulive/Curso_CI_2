@@ -14,7 +14,7 @@ var (
 )
 
 func ConectaComBancoDeDados() {
-    host := "root"//os.Getenv("HOST")
+    host := "localhost"//os.Getenv("HOST")
     user := "root" //os.Getenv("USER")
     password := "root"//os.Getenv("PASSWORD")
     dbname := "root" os.Getenv("DBNAME")
